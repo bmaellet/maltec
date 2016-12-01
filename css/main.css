@@ -1,0 +1,202 @@
+/*****************************
+            GENERAL
+*******************************/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+#Identify {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Resizing images*/
+img {
+    max-width: 100%;
+}
+
+h3 {
+    margin: 0 0 1em 0;
+
+}
+
+
+/*****************************
+            HEADING
+*******************************/
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+    text-align: center;
+    margin: 0;
+}
+h1 {
+    font-family: 'Changa One', sans-serif;
+    margin: 15px 0;
+    font-size: 2.40em;
+    font-weight: normal;
+    line-height: 0.9em;
+}
+
+h2 {
+    font-size: 0.88em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+
+
+/*****************************
+            NAVIGATION
+*******************************/
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+/*****************************
+            FOOTER
+*******************************/
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: #4C4C48;
+}
+
+footer a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+
+/*****************************
+            Page: Home page
+*******************************/
+
+#gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+}
+
+#gallery li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: 0.75em;
+    color: #bdc3c7;
+}
+
+
+
+/*****************************
+            Page: About page
+*******************************/
+
+.profile_photo {
+    display: block;
+    max-width: 160px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+}
+
+
+
+/*****************************
+            Page: Contact Page
+*******************************/
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+/*****************************
+            COLORS
+*******************************/
+
+/* site body here*/
+body {
+    background: #fff;
+    color: #3A3F40;
+}
+
+/* Header color*/
+header {
+    background: #1D1C1A;
+    border-color: #3A3F40;
+}
+
+/* nav background on mobile found here*/
+nav {
+    background:#3A3F40;
+}
+/* logo text*/
+h1, h2 {
+    color: #fff;
+}
+
+/* links here */
+a {
+    color: #65CC72;
+}
+
+
+/* nav link found here*/
+nav a, nav a:visited {
+    color: #fff;
+}
+/* selected nav link color*/
+nav a.selected, nav a:hover {
+    color: #08FFB3;
+}
